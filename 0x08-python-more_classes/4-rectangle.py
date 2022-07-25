@@ -1,7 +1,6 @@
-
 #!/usr/bin/python3
 """
-    5-rectangle: class Rectangle
+    4-rectangle: class Rectangle
 """
 
 
@@ -112,9 +111,3 @@ class Rectangle:
         """
         rectangle = "Rectangle({}, {})".format(self.__width, self.__height)
         return rectangle
-
-    def __del__(self):
-        """
-            properly deletes the instance of a class.
-        """
-        print("Bye rectangle...")
