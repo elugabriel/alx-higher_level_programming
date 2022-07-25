@@ -139,4 +139,4 @@ value (int): new height value
         elif area_2 > area_1:
             return rect_2
         else:
-            return rect_1 
+            return rect_1
